@@ -1,6 +1,4 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+<h1 align="center">Hi 👋, I'm Zakariyya H</h1>
+<h3 align="center">A passionate developer Studying at Goldsmiths, University of london</h3>
 
-layout: home
----
+
