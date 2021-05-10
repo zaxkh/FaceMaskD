@@ -8,15 +8,15 @@
 - 👯 The Requirements for this Demo are: 
 
 ```
-												numpy==1.18.1
-												Keras==2.3.1
-												tensorflow==2.2.0
-												Flask==1.1.1
-												Werkzeug==0.16.0
-												Jinja2==2.10.1
-												gunicorn==20.0.4
-												itsdangerous==1.1.0
-												MarkupSafe==1.1.1
+numpy==1.18.1
+Keras==2.3.1
+tensorflow==2.2.0
+Flask==1.1.1
+Werkzeug==0.16.0
+Jinja2==2.10.1
+gunicorn==20.0.4
+itsdangerous==1.1.0
+MarkupSafe==1.1.1
 					                     
 ```
 
