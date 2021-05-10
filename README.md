@@ -1,4 +1,8 @@
-<h1 align="center">Hi 👋, I'm Zakariyya H</h1>
-<h3 align="center">A passionate developer Studying at Goldsmiths, University of london</h3>
+# cat-dog-flask
+cat dog neural network implemented into website using flask
 
-
+to run:
+just clone or download 
+open directory in cmd
+and type 'app.py'
+enjoy
