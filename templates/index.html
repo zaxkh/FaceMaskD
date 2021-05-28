@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="{{url_for("static", filename='style.css')}}">
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: #27272c">
+    <div class="text-container gradient-border">
+      <h1>Welcome to FaceMaskD</h1>
+      <img src="{{url_for('static', filename='FacemaskD-crop.png')}}" alt="FaceMaskD">
+      <h2>Mask Prediction</h2>
+    </div>
+
+    <form
+      action="{{url_for('home')}}"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <div class="file-input">
+        <input type="file" name="image" id="file" hidden />
+        <label for="file" id="selector">Select File</label>
+        <div class="response">
+          <h1 style="color:#fff">Response Type</h1>
+          <select name="resp-type" >
+            <option value="template">template</option>
+
+            <option value="json">json</option>
+          </select>
+        </div>
+        <input type="submit" value="Submit Query" class="btn-submit">
+      </div>
+    </form>
+    <script src="{{url_for('static', filename='file.js')}}"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result Page</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" />
+  </head>
+  <body style="background-color: #27272c">
+    <div class="text-container gradient-border">
+        {% if data[1] > 0.50 %}
+        <h1>I think this image has No Mask Present</h1>
+        
+        {%else%}
+        <h1>Looks like a Mask is Present</h1>
+        
+        {%endif%}
+      <h2>Validation Accuracy</h2>
+      <h2>Mask: {{data[0]}}</h2>
+      <h2>No Mask: {{data[1]}}</h2>
+    </div>
+    <center><img src="{{url_for('static', filename='detected.png')}}" alt="" srcset="" class="img-class"></center>
+    <center><button class="btn-submit"><a href="/" style="color: #27272c; ">Go Back</a></button></center>
+    
+  </body>
+</html>

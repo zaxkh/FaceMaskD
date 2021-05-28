@@ -12,22 +12,25 @@ numpy==1.18.1
 Keras==2.3.1
 tensorflow==2.2.0
 Flask==1.1.1
-Werkzeug==0.16.0
-Jinja2==2.10.1
-gunicorn==20.0.4
-itsdangerous==1.1.0
-MarkupSafe==1.1.1
-					                     
+OpenCV==4.5.2.52					                     
 ```
 
 
+## Live demonstration
+In your browser go to  `http://demo.zakariyyahusain.com`
 
 ## Installation
 -To Run demo
 - Clone this repo
 ```
-python demo.py
+python webapp.py
 ```
 In your browser go to  `http://127.0.0.1:5000/`.
 
-![Tux, the Linux mascot](https://www.gold.ac.uk/assets/img/svg/sprite/logo.svg)
+## External library used as OpenCV Cascade Classifier
+This can be found at `https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml`
+
+## Data set used
+This can be found at `https://www.kaggle.com/omkargurav/face-mask-dataset/`
+
+![Goldsmiths](https://www.gold.ac.uk/assets/img/svg/sprite/logo.svg)
