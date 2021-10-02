@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Zakariyya H</h1>
-<h3 align="center">A passionate developer Studying at Goldsmiths, University of london</h3>
+<h1 align="center">Hi 👋, I'm Zack H</h1>
+<h3 align="center">A passionate Recently Graduated developer from Goldsmiths, University of london</h3>
 
 - 🔭 I’m currently working on [Face Detection APi](https://www.doc.gold.ac.uk/~zhusa001/final-project)
 
@@ -17,7 +17,7 @@ OpenCV==4.5.2.52
 
 
 ## Live demonstration
-In your browser go to  `http://demo.zakariyyahusain.com`
+Down  `down`
 
 ## Installation
 -To Run demo
@@ -33,4 +33,4 @@ This can be found at `https://github.com/opencv/opencv/blob/master/data/haarcasc
 ## Data set used
 This can be found at `https://www.kaggle.com/omkargurav/face-mask-dataset/`
 
-![Goldsmiths](https://www.gold.ac.uk/assets/img/svg/sprite/logo.svg)
+![LOGO](https://zakariyyahusain.com/img/website-history-icon.ico)
